@@ -1,0 +1,22 @@
+{
+  "name": "blink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "audit": "^0.0.6",
+    "express": "^4.19.2",
+    "fix": "^0.0.6",
+    "johnny-five": "^2.1.0",
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
