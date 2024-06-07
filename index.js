@@ -8,7 +8,7 @@ const board = new Board()
 // Função que inicializa os elementos da placa Arduino
 board.on('ready', () => {
     // Definimos qual é a porta do Arduino conectada ao led
-    const led = new Led(11)
+    const led = new Led(12)
 
     // Cria uma constante que recebe a biblioteca Express do Javascript
     const app = express()
